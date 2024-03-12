@@ -5,6 +5,7 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///games.db'
 db = SQLAlchemy(app)
 
+# db.Model is the base class for all models in SQLAlchemy
 class Game(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100), nullable=False)
@@ -13,7 +14,7 @@ class Game(db.Model):
 
     def __repr__(self):
         return f'<Game {self.title}>'
-
+# queries all games from the database and passes them to the index.html template
 @app.route('/')
 def index():
     games = Game.query.all()
