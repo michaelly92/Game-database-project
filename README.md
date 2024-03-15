@@ -18,3 +18,12 @@ This is a simple CRUD (Create, Read, Update, Delete) application for managing a 
 ## Installation
 
 1. Clone the repository:
+
+2. Install dependencies:
+   pip install Flask Flask-SQLAlchemy
+
+## To Use
+
+1. Run the app by entering into terminal: python app.py
+
+2. Open: http://localhost:5000
