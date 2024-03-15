@@ -18,4 +18,3 @@ This is a simple CRUD (Create, Read, Update, Delete) application for managing a 
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/game-library-crud.git
