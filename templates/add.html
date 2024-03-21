@@ -8,16 +8,18 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
         h1 {
             text-align: center;
-            margin-top: 30px;
         }
 
         form {
             width: 50%;
-            margin: 20px auto;
             background-color: #fff;
             padding: 20px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -52,8 +54,8 @@
     </style>
 </head>
 <body>
-    <h1>Add New Game</h1>
     <form action="{{ url_for('add_game') }}" method="post">
+        <h1>Add New Game</h1>
         <label for="title">Title:</label><br>
         <input type="text" id="title" name="title"><br>
         <label for="genre">Genre:</label><br>
