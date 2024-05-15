@@ -1,6 +1,6 @@
 # Game Library CRUD App
 
-This is a simple CRUD (Create, Read, Update, Delete) application for managing a collection of games. It's built using Python with Flask framework for the backend and SQLite database for data storage.
+This is a CRUD (Create, Read, Update, Delete) application for managing a collection of games. It's built using Python with Flask framework for the backend and SQLite database for data storage.
 
 ## Features
 
